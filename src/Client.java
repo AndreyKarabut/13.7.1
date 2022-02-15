@@ -1,31 +1,31 @@
 public class Client {
-    static String name;
-    static int age;
-    static int turnover;
-    static double debt;
+    String name;
+    int age;
+    int turnover;
+    double debt;
 
-    public static String getName() {
-        return name;
+    public String getName() {
+        return this.name;
     }
 
-    public static int getAge() {
-        return age;
+    public int getAge() {
+        return this.age;
     }
 
-    public static int getTurnover() {
-        return turnover;
+    public  int getTurnover() {
+        return this.turnover;
     }
 
-    public static void setTurnover(int turnover) {
-        Client.turnover = turnover;
+    public void setTurnover(int turnover) {
+        this.turnover = turnover;
     }
 
-    public static double getDebt() {
-        return debt;
+    public double getDebt() {
+        return this.debt;
     }
 
-    public static void setDebt(float debt) {
-        Client.debt = debt;
+    public void setDebt(float debt) {
+        this.debt = debt;
     }
 
     public Client(String name, int age) {
